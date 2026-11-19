@@ -18,6 +18,12 @@ import { Rng } from './rng';
 import { addRanking, clearCampaign, loadCampaign, loadRanking, loadSettings, newCampaign, saveCampaign, saveSettings } from './save';
 import { EMPTY_DAY, getGame, setGame, toast, type Campaign, type EndingId, type NightResult, type Settings } from './store';
 
+
+/** 게임 분석 트래커 (game-analytics). index.html 의 game-tracker.js 가 없으면 아무것도 안 함 */
+const track = (name: string, step: number): void => {
+  (window as unknown as { GameTracker?: { milestone(n: string, s: number): void } }).GameTracker?.milestone(name, step);
+};
+
 const TIPS = [
   '마당에서 싸우면 화분이 깨져 의심도가 오른다. 멀리 나가서 싸우자.',
   '새벽이 오면 곧장 집으로. 늦게 들어올수록 주인이 수상해한다.',
@@ -274,6 +280,7 @@ export class Director implements CutsceneHost {
     }
     this.postfx.setLook(c.hour >= 17 ? 'dusk' : 'day', 0.5);
     audio.playMusic('day');
+    track(`${c.day}일차 낮`, c.day * 2 - 1);
     setGame({ screen: 'day', day: EMPTY_DAY, paused: false });
     this.commit();
     await this.fade(0, 0.6);
@@ -389,6 +396,7 @@ export class Director implements CutsceneHost {
     scene.numbers.enabled = getGame().settings.damageNumbers;
     this.night = scene;
     this.setScene(scene);
+    track(`${c.day}일차 밤`, c.day * 2);
     setGame({ screen: 'night', result: null, paused: false });
     await this.fade(0, 0.5);
   }
@@ -533,6 +541,7 @@ export class Director implements CutsceneHost {
     await this.playCut(ending(id, c), false);
     const ranking = addRanking({ score: c.score, kills: c.totalKills, ending: id, date: new Date().toISOString().slice(0, 10) });
     clearCampaign();
+    track('엔딩: ' + id, 15);
     setGame({ screen: 'ending', ending: id, ranking, hasSave: false });
     await this.fade(0.55, 0.8);
   }
