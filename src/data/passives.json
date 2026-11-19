@@ -1,0 +1,10 @@
+[
+  { "id": "jaw", "name": "튼튼한 턱", "icon": "jaw", "desc": "공격력 +10%", "stat": "might", "perLevel": 0.1, "max": 5 },
+  { "id": "bell", "name": "집중 방울", "icon": "bell", "desc": "쿨다운 -6%", "stat": "cooldown", "perLevel": -0.06, "max": 5 },
+  { "id": "lungs", "name": "큰 목청", "icon": "lungs", "desc": "공격 범위 +10%", "stat": "area", "perLevel": 0.1, "max": 5 },
+  { "id": "paws", "name": "가벼운 발", "icon": "paws", "desc": "이동 속도 +7%", "stat": "speed", "perLevel": 0.07, "max": 5 },
+  { "id": "magnet", "name": "자석 목걸이", "icon": "magnet", "desc": "보석 흡수 범위 +30%", "stat": "magnet", "perLevel": 0.3, "max": 5 },
+  { "id": "snack", "name": "영양 간식", "icon": "snack", "desc": "최대 체력 +12%, 초당 회복 +0.4", "stat": "maxHp", "perLevel": 0.12, "regen": 0.4, "max": 5 },
+  { "id": "clover", "name": "네잎클로버", "icon": "clover", "desc": "치명타 확률 +6%", "stat": "crit", "perLevel": 0.06, "max": 5 },
+  { "id": "fur", "name": "두꺼운 털", "icon": "fur", "desc": "받는 피해 -1.5", "stat": "armor", "perLevel": 1.5, "max": 5 }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "delivery", "title": "택배 아저씨", "actor": "delivery",
+    "text": "딩동— 현관에 수염 난 택배 아저씨가 서 있다.",
+    "thought": "(저 상자… 어젯밤 그 해골이 떨어뜨린 뼈 냄새가 난다.)",
+    "choices": [
+      { "label": "맹렬히 짖는다", "result": "아저씨가 놀라 상자를 떨어뜨렸다. 주인이 사과하느라 바쁘다.", "gains": { "strength": 2 }, "suspicion": 3, "ownerLine": "호두야! 아저씨한테 왜 그래, 평소엔 안 그러잖아." },
+      { "label": "얌전히 꼬리만 흔든다", "result": "아저씨가 머리를 쓰다듬고 갔다. 상자는 주인의 새 슬리퍼였다.", "gains": { "bond": 2, "focus": 1 }, "suspicion": -1, "ownerLine": "옳지, 우리 호두 착하다." }
+    ]
+  },
+  {
+    "id": "cat", "title": "담장 위의 고양이", "actor": "cat",
+    "text": "옆집 고양이 나비가 담장 위에서 이쪽을 빤히 내려다본다.",
+    "thought": "(저 눈빛… 뭔가 아는 눈빛이다.)",
+    "choices": [
+      { "label": "쫓아간다", "result": "담장까지 2초. 너무 빨랐다. 주인이 눈을 비빈다.", "gains": { "agility": 3 }, "suspicion": 4, "fatigue": 6, "ownerLine": "…방금 호두 발이 안 보였는데. 내가 피곤한가." },
+      { "label": "무시하고 하품한다", "result": "나비가 흥미를 잃고 그루밍을 시작했다.", "gains": { "focus": 2 }, "suspicion": 0, "ownerLine": "둘이 언제 친해질래." }
+    ]
+  },
+  {
+    "id": "friend", "title": "주인 친구 방문", "actor": "friend",
+    "text": "주인의 친구가 놀러 왔다. \"얘가 그 유기견이야? 뭐 할 줄 알아?\"",
+    "thought": "(할 줄 아는 것: 충격파, 레이저, 번개. 보여 줄 수 있는 것: 손.)",
+    "choices": [
+      { "label": "'손'을 보여 준다", "result": "박수가 터졌다. 간식도 받았다.", "gains": { "bond": 3, "vitality": 1 }, "suspicion": -2, "ownerLine": "봤지? 우리 호두 천재야." },
+      { "label": "실수로 두 발로 선다", "result": "3초간 정적. 재빨리 넘어지는 척했다.", "gains": { "agility": 2 }, "suspicion": 6, "ownerLine": "…방금 섰지? 너도 봤지? 섰잖아." }
+    ]
+  },
+  {
+    "id": "bath", "title": "목욕 시간", "actor": "owner",
+    "text": "주인이 수건을 들고 다가온다. \"호두, 발에 웬 흙이 이렇게 많아?\"",
+    "thought": "(어젯밤 묘지 흙이다. 증거 인멸 기회다.)",
+    "choices": [
+      { "label": "얌전히 씻는다", "result": "증거는 하수구로. 털에서 복숭아 향이 난다.", "gains": { "bond": 2 }, "suspicion": -4, "fatigue": -4, "ownerLine": "오늘따라 얌전하네. 수상하게." },
+      { "label": "도망친다", "result": "거실에 흙 발자국 스무 개가 찍혔다.", "gains": { "agility": 3 }, "suspicion": 5, "fatigue": 5, "ownerLine": "호두!! 방금 닦은 바닥인데!" }
+    ]
+  },
+  {
+    "id": "news", "title": "아침 뉴스", "actor": "owner",
+    "text": "TV에서 뉴스가 나온다. \"간밤에도 정체불명의 짐승이 괴한을 쫓아냈다는 제보가…\"",
+    "thought": "(짐승이라니. 영웅이라고 해 줬으면.)",
+    "choices": [
+      { "label": "화면 앞을 가로막는다", "result": "주인이 고개를 기울여 가며 끝까지 봤다.", "gains": { "focus": 1 }, "suspicion": 3, "ownerLine": "비켜 봐, 우리 동네 얘기잖아. …저 실루엣 어디서 봤는데." },
+      { "label": "리모컨을 '실수로' 밟는다", "result": "채널이 요리 방송으로 넘어갔다. 주인이 군침을 삼킨다.", "gains": { "bond": 1, "focus": 1 }, "suspicion": -1, "ownerLine": "아, 저 갈비찜… 호두야 우리 저녁 뭐 먹지." }
+    ]
+  },
+  {
+    "id": "slipper", "title": "사라진 슬리퍼", "actor": "owner",
+    "text": "주인이 한 짝뿐인 슬리퍼를 들고 있다. 나머지 한 짝은 어젯밤 해골에게 던졌다.",
+    "thought": "(전투 중 불가피한 손실이었다.)",
+    "choices": [
+      { "label": "모르는 척 배를 보인다", "result": "배를 긁어 주다가 슬리퍼를 잊어버렸다.", "gains": { "bond": 3 }, "suspicion": 1, "ownerLine": "에휴, 귀여우면 다야? …다지." },
+      { "label": "마당에서 '찾아 온' 척한다", "result": "이웃집 슬리퍼를 물어 왔다. 사이즈가 다르다.", "gains": { "strength": 1, "agility": 1 }, "suspicion": 4, "ownerLine": "이건 누구 거야… 호두야, 너 밤에 어디 다니니?" }
+    ]
+  }
+]

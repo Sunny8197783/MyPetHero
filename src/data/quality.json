@@ -1,0 +1,5 @@
+{
+  "low": { "label": "낮음", "pixelRatio": 1, "composer": false, "bloom": false, "bloomScale": 0.5, "smaa": false, "shadows": false, "particleScale": 0.45, "fireflies": 30, "lightCones": false, "fog": true, "chromatic": false, "dof": false, "leaves": 0, "maxDamageNumbers": 120, "enemyDetail": 0.35 },
+  "medium": { "label": "중간", "pixelRatio": 1.5, "composer": true, "bloom": true, "bloomScale": 0.5, "smaa": false, "shadows": false, "particleScale": 0.8, "fireflies": 80, "lightCones": true, "fog": true, "chromatic": true, "dof": false, "leaves": 40, "maxDamageNumbers": 260, "enemyDetail": 0.55 },
+  "high": { "label": "높음", "pixelRatio": 2, "composer": true, "bloom": true, "bloomScale": 1, "smaa": true, "shadows": true, "particleScale": 1, "fireflies": 160, "lightCones": true, "fog": true, "chromatic": true, "dof": true, "leaves": 90, "maxDamageNumbers": 400, "enemyDetail": 1 }
+}

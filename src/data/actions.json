@@ -1,0 +1,56 @@
+[
+  {
+    "id": "walk", "name": "산책", "icon": "walk", "hours": 2, "fatigue": 12, "maxPerDay": 2,
+    "gains": { "agility": 4, "bond": 2 },
+    "desc": "동네 한 바퀴. 민첩이 오르고 주인과 가까워진다.",
+    "thought": "(순찰 경로 확인 완료. 3번 가로등이 수상하다.)"
+  },
+  {
+    "id": "meal", "name": "밥", "icon": "meal", "hours": 1, "fatigue": -6, "maxPerDay": 2,
+    "gains": { "vitality": 4 },
+    "desc": "든든한 한 끼. 체력이 오른다.",
+    "thought": "(영웅도 먹어야 싸운다. 사료 맛은… 타협하자.)"
+  },
+  {
+    "id": "tug", "name": "터그놀이", "icon": "tug", "hours": 2, "fatigue": 14, "maxPerDay": 2,
+    "gains": { "strength": 5, "bond": 1 },
+    "desc": "밧줄 당기기. 근력이 크게 오른다.",
+    "thought": "(힘 조절 실패하면 주인이 날아간다. 30%만 쓰자.)"
+  },
+  {
+    "id": "fetch", "name": "공 물어오기", "icon": "fetch", "hours": 2, "fatigue": 14, "maxPerDay": 2,
+    "gains": { "strength": 3, "agility": 3 },
+    "desc": "던지면 물어온다. 근력과 민첩이 오른다.",
+    "thought": "(공이 떨어지기 전에 잡으면 안 된다. 평범한 개처럼, 평범한 개처럼.)"
+  },
+  {
+    "id": "train", "name": "훈련", "icon": "train", "hours": 2, "fatigue": 10, "maxPerDay": 2,
+    "gains": { "focus": 5 },
+    "desc": "앉아! 기다려! 집중이 오른다.",
+    "thought": "(\"기다려\"는 쉽다. 어젯밤엔 가로등 뒤에서 40분을 기다렸다.)"
+  },
+  {
+    "id": "nap", "name": "낮잠", "icon": "nap", "hours": 2, "fatigue": -32, "maxPerDay": 2,
+    "gains": { "vitality": 2 },
+    "desc": "피로를 크게 푼다. 체력도 조금 오른다.",
+    "thought": "(밤샘 근무의 기본은 낮잠이다.)"
+  },
+  {
+    "id": "pet", "name": "쓰다듬기", "icon": "pet", "hours": 1, "fatigue": -4, "maxPerDay": 3,
+    "gains": { "bond": 5 }, "suspicion": -2,
+    "desc": "주인 손길. 유대감이 오르고 의심이 조금 풀린다.",
+    "thought": "(…이건 임무와 무관하게 좋다.)"
+  },
+  {
+    "id": "tv", "name": "같이 TV 보기", "icon": "tv", "hours": 2, "fatigue": -8, "maxPerDay": 1,
+    "gains": { "bond": 4, "focus": 1 },
+    "desc": "소파에서 나란히. 유대감이 오르고 피로가 풀린다.",
+    "thought": "(뉴스에 '동네 괴소문'이 나온다. 모른 척 하품하자.)"
+  },
+  {
+    "id": "run", "name": "달리기", "icon": "run", "hours": 2, "fatigue": 18, "maxPerDay": 2,
+    "gains": { "agility": 6 },
+    "desc": "마당 전력 질주. 민첩이 크게 오르지만 피곤하다.",
+    "thought": "(우다다는 본능이 아니다. 기동 훈련이다.)"
+  }
+]

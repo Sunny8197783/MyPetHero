@@ -1,0 +1,20 @@
+{
+  "//": "node_modules 없이 ../vendor/lib 의 GitHub 클론으로 타입 검사를 할 때 쓰는 설정. 일반 환경에서는 tsconfig.json 을 쓴다.",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "paths": {
+      "three": ["../vendor/lib/three-types/types/three/build/three.module.d.ts"],
+      "three/addons/*": ["../vendor/lib/three-types/types/three/examples/jsm/*"],
+      "gsap": ["../vendor/lib/gsap/types/index.d.ts"],
+      "howler": ["../vendor/lib/dt/types/howler/index.d.ts"],
+      "zustand": ["../vendor/lib/zustand/src/index.ts"],
+      "react": ["../vendor/lib/dt/types/react/index.d.ts"],
+      "react/jsx-runtime": ["../vendor/lib/dt/types/react/jsx-runtime.d.ts"],
+      "react-dom": ["../vendor/lib/dt/types/react-dom/index.d.ts"],
+      "react-dom/client": ["../vendor/lib/dt/types/react-dom/client.d.ts"],
+      "csstype": ["../vendor/lib/csstype/index.d.ts"]
+    }
+  },
+  "include": ["src"]
+}

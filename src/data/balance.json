@@ -1,0 +1,87 @@
+{
+  "campaign": { "nights": 7, "dayStartHour": 8, "dayEndHour": 22, "maxEventsPerDay": 2, "eventChance": 0.4 },
+  "stats": {
+    "start": { "vitality": 10, "strength": 10, "agility": 10, "focus": 10, "bond": 10, "fatigue": 0 },
+    "max": 100,
+    "repeatPenalty": 0.7
+  },
+  "nightEffects": {
+    "baseHp": 100,
+    "hpPerVitality": 2,
+    "mightPerStrength": 0.012,
+    "baseSpeed": 7.2,
+    "speedPerAgility": 0.005,
+    "dodgePerAgility": 0.002,
+    "cooldownPerFocus": 0.004,
+    "fatigueTiers": [
+      { "at": 60, "speed": -0.1, "cooldown": 0.1, "hp": 1, "label": "피곤함" },
+      { "at": 85, "speed": -0.2, "cooldown": 0.2, "hp": 0.8, "label": "녹초" }
+    ],
+    "awaken": {
+      "hpThreshold": 0.3,
+      "baseDuration": 4,
+      "durationPerBond": 0.08,
+      "baseMight": 1.5,
+      "mightPerBond": 0.01,
+      "healPerBond": 0.004,
+      "secondUseBond": 60
+    }
+  },
+  "player": {
+    "radius": 0.55,
+    "accel": 60,
+    "decel": 42,
+    "turnRate": 14,
+    "invulnAfterHit": 0.35,
+    "magnetRadius": 3.2,
+    "critChance": 0.05,
+    "critMult": 2,
+    "maxWeapons": 5,
+    "maxPassives": 5,
+    "startWeapon": "bark",
+    "levelUpHeal": 0.06,
+    "headStartNights": 2
+  },
+  "xp": { "base": 3, "perLevel": 3, "power": 1.5, "gemValues": [1, 3, 10], "gemLifetime": 60 },
+  "night": {
+    "bounds": 54,
+    "spawnRadiusMin": 21,
+    "spawnRadiusMax": 26,
+    "maxEnemies": 460,
+    "hpPerNight": 0.22,
+    "hpOverTime": 0.7,
+    "damagePerNight": 0.08,
+    "homeRadius": 4.5,
+    "yardRadius": 13,
+    "dawnGrace": 10,
+    "dawnMaxLate": 30,
+    "snackDropChance": 0.045,
+    "snackHeal": 0.22
+  },
+  "suspicion": {
+    "start": 5,
+    "dailyDecay": 4,
+    "tiers": [0, 25, 50, 75, 100],
+    "night": {
+      "perDamageRatio": 14,
+      "perLateSecond": 0.6,
+      "perYardKill": 0.25,
+      "yardKillCap": 8,
+      "knockedOut": 24,
+      "bossEscaped": 4,
+      "perfectBonus": -6
+    },
+    "closeCall": { "successTo": 55, "failTo": 70, "rounds": 3, "timePerRound": 3.2 }
+  },
+  "score": {
+    "perKill": 1,
+    "perBoss": 60,
+    "noDamageNight": 120,
+    "lowSuspicionEnd": 300,
+    "lowSuspicionThreshold": 25,
+    "bondMaxEnd": 200,
+    "secretKept": 150,
+    "perEliteKill": 5
+  },
+  "endings": { "trueBond": 90, "trueSuspicion": 30, "caughtFlags": 2 }
+}

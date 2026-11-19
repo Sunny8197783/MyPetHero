@@ -1,0 +1,286 @@
+{
+  "generatedBy": "manual vendoring via git clone (npx skills unavailable in this workspace)",
+  "date": "2026-11-17",
+  "skills": {
+    "threejs-fundamentals": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-fundamentals",
+      "commit": "0e18186"
+    },
+    "threejs-animation": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-animation",
+      "commit": "0e18186"
+    },
+    "threejs-loaders": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-loaders",
+      "commit": "0e18186"
+    },
+    "threejs-materials": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-materials",
+      "commit": "0e18186"
+    },
+    "threejs-lighting": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-lighting",
+      "commit": "0e18186"
+    },
+    "threejs-shaders": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-shaders",
+      "commit": "0e18186"
+    },
+    "threejs-postprocessing": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-postprocessing",
+      "commit": "0e18186"
+    },
+    "threejs-performance": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-performance",
+      "commit": "0e18186"
+    },
+    "threejs-asset-pipeline": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-asset-pipeline",
+      "commit": "0e18186"
+    },
+    "threejs-geometry": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-geometry",
+      "commit": "0e18186"
+    },
+    "threejs-textures": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-textures",
+      "commit": "0e18186"
+    },
+    "threejs-interaction": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-interaction",
+      "commit": "0e18186"
+    },
+    "threejs-react-three-fiber": {
+      "source": "CloudAI-X/threejs-skills",
+      "path": "skills/threejs-react-three-fiber",
+      "commit": "0e18186"
+    },
+    "threejs-game-director": {
+      "source": "majidmanzarpour/threejs-game-skills",
+      "path": "skills/threejs-game-director",
+      "commit": "8286774"
+    },
+    "threejs-gameplay-systems": {
+      "source": "majidmanzarpour/threejs-game-skills",
+      "path": "skills/threejs-gameplay-systems",
+      "commit": "8286774"
+    },
+    "threejs-aaa-graphics-builder": {
+      "source": "majidmanzarpour/threejs-game-skills",
+      "path": "skills/threejs-aaa-graphics-builder",
+      "commit": "8286774"
+    },
+    "threejs-game-ui-designer": {
+      "source": "majidmanzarpour/threejs-game-skills",
+      "path": "skills/threejs-game-ui-designer",
+      "commit": "8286774"
+    },
+    "threejs-debug-profiler": {
+      "source": "majidmanzarpour/threejs-game-skills",
+      "path": "skills/threejs-debug-profiler",
+      "commit": "8286774"
+    },
+    "threejs-qa-release": {
+      "source": "majidmanzarpour/threejs-game-skills",
+      "path": "skills/threejs-qa-release",
+      "commit": "8286774"
+    },
+    "three-webgl-game": {
+      "source": "openai/plugins",
+      "path": "plugins/game-studio/skills/three-webgl-game",
+      "commit": "d420d13"
+    },
+    "web-game-foundations": {
+      "source": "openai/plugins",
+      "path": "plugins/game-studio/skills/web-game-foundations",
+      "commit": "d420d13"
+    },
+    "game-ui-frontend": {
+      "source": "openai/plugins",
+      "path": "plugins/game-studio/skills/game-ui-frontend",
+      "commit": "d420d13"
+    },
+    "game-playtest": {
+      "source": "openai/plugins",
+      "path": "plugins/game-studio/skills/game-playtest",
+      "commit": "d420d13"
+    },
+    "web-3d-asset-pipeline": {
+      "source": "openai/plugins",
+      "path": "plugins/game-studio/skills/web-3d-asset-pipeline",
+      "commit": "d420d13"
+    },
+    "react-three-fiber-game": {
+      "source": "openai/plugins",
+      "path": "plugins/game-studio/skills/react-three-fiber-game",
+      "commit": "d420d13"
+    },
+    "sprite-pipeline": {
+      "source": "openai/plugins",
+      "path": "plugins/game-studio/skills/sprite-pipeline",
+      "commit": "d420d13"
+    },
+    "threejs-game": {
+      "source": "opusgamelabs/game-creator",
+      "path": "skills/threejs-game",
+      "commit": "53676bd"
+    },
+    "threejs-perf": {
+      "source": "opusgamelabs/game-creator",
+      "path": "skills/threejs-perf",
+      "commit": "53676bd"
+    },
+    "game-architecture": {
+      "source": "opusgamelabs/game-creator",
+      "path": "skills/game-architecture",
+      "commit": "53676bd"
+    },
+    "game-designer": {
+      "source": "opusgamelabs/game-creator",
+      "path": "skills/game-designer",
+      "commit": "53676bd"
+    },
+    "game-audio": {
+      "source": "opusgamelabs/game-creator",
+      "path": "skills/game-audio",
+      "commit": "53676bd"
+    },
+    "add-audio": {
+      "source": "opusgamelabs/game-creator",
+      "path": "skills/add-audio",
+      "commit": "53676bd"
+    },
+    "game-qa": {
+      "source": "opusgamelabs/game-creator",
+      "path": "skills/game-qa",
+      "commit": "53676bd"
+    },
+    "game-3d-assets": {
+      "source": "opusgamelabs/game-creator",
+      "path": "skills/game-3d-assets",
+      "commit": "53676bd"
+    },
+    "game-assets": {
+      "source": "opusgamelabs/game-creator",
+      "path": "skills/game-assets",
+      "commit": "53676bd"
+    },
+    "gsap-core": {
+      "source": "greensock/gsap-skills",
+      "path": "skills/gsap-core",
+      "commit": "aed9cfd"
+    },
+    "gsap-timeline": {
+      "source": "greensock/gsap-skills",
+      "path": "skills/gsap-timeline",
+      "commit": "aed9cfd"
+    },
+    "gsap-performance": {
+      "source": "greensock/gsap-skills",
+      "path": "skills/gsap-performance",
+      "commit": "aed9cfd"
+    },
+    "gsap-utils": {
+      "source": "greensock/gsap-skills",
+      "path": "skills/gsap-utils",
+      "commit": "aed9cfd"
+    },
+    "gsap-react": {
+      "source": "greensock/gsap-skills",
+      "path": "skills/gsap-react",
+      "commit": "aed9cfd"
+    },
+    "r3f-fundamentals": {
+      "source": "EnzeD/r3f-skills",
+      "path": "skills/r3f-fundamentals",
+      "commit": "4a11805"
+    },
+    "r3f-postprocessing": {
+      "source": "EnzeD/r3f-skills",
+      "path": "skills/r3f-postprocessing",
+      "commit": "4a11805"
+    },
+    "r3f-shaders": {
+      "source": "EnzeD/r3f-skills",
+      "path": "skills/r3f-shaders",
+      "commit": "4a11805"
+    },
+    "r3f-animation": {
+      "source": "EnzeD/r3f-skills",
+      "path": "skills/r3f-animation",
+      "commit": "4a11805"
+    },
+    "performance": {
+      "source": "addyosmani/web-quality-skills",
+      "path": "skills/performance",
+      "commit": "afa8da9"
+    },
+    "core-web-vitals": {
+      "source": "addyosmani/web-quality-skills",
+      "path": "skills/core-web-vitals",
+      "commit": "afa8da9"
+    },
+    "react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "path": "skills/react-best-practices",
+      "commit": "1a2c79d"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "path": "skills/web-design-guidelines",
+      "commit": "1a2c79d"
+    },
+    "vite": {
+      "source": "antfu/skills",
+      "path": "skills/vite",
+      "commit": "4a6bb39"
+    },
+    "vitest": {
+      "source": "antfu/skills",
+      "path": "skills/vitest",
+      "commit": "4a6bb39"
+    },
+    "typescript-magician": {
+      "source": "mcollina/skills",
+      "path": "skills/typescript-magician",
+      "commit": "c75d70d"
+    },
+    "playwright-cli": {
+      "source": "microsoft/playwright-cli",
+      "path": "skills/playwright-cli",
+      "commit": "b217248"
+    },
+    "playwright": {
+      "source": "openai/skills",
+      "path": "skills/.curated/playwright",
+      "commit": "49f948f"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "path": "skills/frontend-design",
+      "commit": "e4bb5d9"
+    },
+    "webapp-testing": {
+      "source": "anthropics/skills",
+      "path": "skills/webapp-testing",
+      "commit": "e4bb5d9"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "path": ".claude/skills/ui-ux-pro-max",
+      "commit": "e59ff37"
+    }
+  }
+}

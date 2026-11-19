@@ -1,0 +1,67 @@
+{
+  "nights": [
+    {
+      "duration": 150, "bossAt": 105, "boss": "pumpkin_king", "eliteEvery": 45, "eliteType": "minion",
+      "segments": [
+        {"from": 0, "to": 0.3, "rate": [1.2, 2.2], "mix": {"minion": 1}},
+        {"from": 0.3, "to": 0.65, "rate": [2.2, 3.6], "mix": {"minion": 0.8, "skull": 0.2}},
+        {"from": 0.65, "to": 1, "rate": [3.6, 5.2], "mix": {"minion": 0.6, "rogue": 0.2, "pumpkin": 0.2}}
+      ],
+      "bursts": [{"at": 0.45, "type": "skull", "count": 16, "pattern": "ring"}]
+    },
+    {
+      "duration": 160, "bossAt": 112, "boss": "bone_captain", "eliteEvery": 40, "eliteType": "minion",
+      "segments": [
+        {"from": 0, "to": 0.3, "rate": [1.8, 3.2], "mix": {"minion": 0.8, "rogue": 0.2}},
+        {"from": 0.3, "to": 0.65, "rate": [3.2, 4.8], "mix": {"minion": 0.6, "rogue": 0.2, "pumpkin": 0.2}},
+        {"from": 0.65, "to": 1, "rate": [4.8, 6.4], "mix": {"minion": 0.5, "rogue": 0.2, "pumpkin": 0.15, "warrior": 0.15}}
+      ],
+      "bursts": [{"at": 0.35, "type": "skull", "count": 20, "pattern": "ring"}, {"at": 0.6, "type": "rogue", "count": 14, "pattern": "side"}]
+    },
+    {
+      "duration": 170, "bossAt": 120, "boss": "night_thief", "eliteEvery": 36, "eliteType": "rogue",
+      "segments": [
+        {"from": 0, "to": 0.3, "rate": [2.4, 4.0], "mix": {"minion": 0.6, "rogue": 0.3, "skull": 0.1}},
+        {"from": 0.3, "to": 0.65, "rate": [4.0, 6.0], "mix": {"minion": 0.45, "rogue": 0.3, "pumpkin": 0.1, "warrior": 0.15}},
+        {"from": 0.65, "to": 1, "rate": [6.0, 7.8], "mix": {"minion": 0.4, "rogue": 0.3, "warrior": 0.15, "mage": 0.15}}
+      ],
+      "bursts": [{"at": 0.3, "type": "rogue", "count": 18, "pattern": "side"}, {"at": 0.55, "type": "skull", "count": 28, "pattern": "ring"}]
+    },
+    {
+      "duration": 180, "bossAt": 128, "boss": "archmage", "eliteEvery": 34, "eliteType": "warrior",
+      "segments": [
+        {"from": 0, "to": 0.3, "rate": [2.6, 4.3], "mix": {"minion": 0.55, "rogue": 0.2, "mage": 0.1, "pumpkin": 0.15}},
+        {"from": 0.3, "to": 0.65, "rate": [4.3, 6.2], "mix": {"minion": 0.45, "rogue": 0.2, "warrior": 0.15, "mage": 0.2}},
+        {"from": 0.65, "to": 1, "rate": [6.2, 7.7], "mix": {"minion": 0.4, "rogue": 0.2, "warrior": 0.2, "mage": 0.2}}
+      ],
+      "bursts": [{"at": 0.25, "type": "skull", "count": 30, "pattern": "ring"}, {"at": 0.5, "type": "pumpkin", "count": 16, "pattern": "side"}, {"at": 0.62, "type": "skull", "count": 30, "pattern": "ring"}]
+    },
+    {
+      "duration": 190, "bossAt": 135, "boss": "gravekeeper", "eliteEvery": 30, "eliteType": "warrior",
+      "segments": [
+        {"from": 0, "to": 0.3, "rate": [3.2, 5.0], "mix": {"minion": 0.6, "rogue": 0.2, "pumpkin": 0.2}},
+        {"from": 0.3, "to": 0.65, "rate": [5.0, 7.2], "mix": {"minion": 0.5, "rogue": 0.15, "warrior": 0.2, "mage": 0.15}},
+        {"from": 0.65, "to": 1, "rate": [7.2, 8.8], "mix": {"minion": 0.5, "rogue": 0.15, "warrior": 0.2, "mage": 0.15}}
+      ],
+      "bursts": [{"at": 0.2, "type": "minion", "count": 30, "pattern": "ring"}, {"at": 0.45, "type": "skull", "count": 36, "pattern": "ring"}, {"at": 0.6, "type": "rogue", "count": 24, "pattern": "side"}]
+    },
+    {
+      "duration": 200, "bossAt": 142, "boss": "guardian", "eliteEvery": 28, "eliteType": "ember",
+      "segments": [
+        {"from": 0, "to": 0.3, "rate": [3.8, 5.9], "mix": {"minion": 0.5, "rogue": 0.2, "ember": 0.1, "pumpkin": 0.2}},
+        {"from": 0.3, "to": 0.65, "rate": [5.9, 8.2], "mix": {"minion": 0.4, "rogue": 0.15, "warrior": 0.2, "mage": 0.15, "ember": 0.1}},
+        {"from": 0.65, "to": 1, "rate": [8.2, 10.1], "mix": {"minion": 0.4, "rogue": 0.15, "warrior": 0.2, "mage": 0.15, "ember": 0.1}}
+      ],
+      "bursts": [{"at": 0.2, "type": "skull", "count": 36, "pattern": "ring"}, {"at": 0.4, "type": "ember", "count": 12, "pattern": "side"}, {"at": 0.58, "type": "skull", "count": 40, "pattern": "ring"}]
+    },
+    {
+      "duration": 240, "bossAt": 150, "boss": "core", "eliteEvery": 26, "eliteType": "ember",
+      "segments": [
+        {"from": 0, "to": 0.25, "rate": [4.5, 7.0], "mix": {"minion": 0.45, "rogue": 0.2, "ember": 0.15, "pumpkin": 0.2}},
+        {"from": 0.25, "to": 0.6, "rate": [7.0, 9.8], "mix": {"minion": 0.4, "rogue": 0.15, "warrior": 0.2, "mage": 0.15, "ember": 0.1}},
+        {"from": 0.6, "to": 1, "rate": [9.8, 11.5], "mix": {"minion": 0.35, "rogue": 0.15, "warrior": 0.2, "mage": 0.15, "ember": 0.15}}
+      ],
+      "bursts": [{"at": 0.15, "type": "skull", "count": 40, "pattern": "ring"}, {"at": 0.3, "type": "rogue", "count": 30, "pattern": "side"}, {"at": 0.45, "type": "ember", "count": 18, "pattern": "ring"}, {"at": 0.55, "type": "skull", "count": 44, "pattern": "ring"}]
+    }
+  ]
+}

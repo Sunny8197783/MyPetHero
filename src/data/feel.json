@@ -1,0 +1,20 @@
+{
+  "hitstop": { "enabled": true, "hitMs": 30, "critMs": 45, "heavyMs": 60, "eliteKillMs": 70, "playerHitMs": 70, "bossHitMs": 40, "bossKillMs": 160, "scale": 0.05, "minIntervalMs": 140 },
+  "shake": {
+    "enabled": true, "decay": 1.5, "maxOffset": 0.7, "maxRoll": 0.035, "frequency": 30,
+    "falloffStart": 6, "falloffEnd": 26,
+    "hit": 0.06, "crit": 0.16, "kill": 0.08, "eliteKill": 0.4, "playerHit": 0.45, "nova": 0.22, "bossSlam": 0.7, "bossKill": 1.0, "explosion": 0.35
+  },
+  "knockback": { "scale": 1, "friction": 9, "squash": 0.55, "squashRecover": 14, "squashOvershoot": 0.18 },
+  "flash": { "duration": 0.09, "intensity": 2.6, "playerDuration": 0.2 },
+  "damageNumbers": { "enabled": true, "rise": 2.4, "life": 0.7, "size": 0.9, "critSize": 1.5, "critColor": "#ffd23f", "normalColor": "#ffffff", "playerColor": "#ff5a5a", "healColor": "#7dffa0", "maxPerFrame": 14 },
+  "death": { "particles": 10, "eliteParticles": 28, "gemPop": 4.5 },
+  "gems": { "magnetAccel": 60, "maxSpeed": 26, "collectRadius": 0.7 },
+  "camera": {
+    "fov": 42, "height": 22, "back": 14, "followLag": 0.12, "lookAhead": 2.2,
+    "fovPunch": { "decay": 0.2, "max": 9, "nova": 1.2, "crit": 0.6, "heavy": 2.5, "bossSlam": 5, "awaken": 7, "evolve": 6 },
+    "bossKill": { "slowScale": 0.18, "slowDuration": 1.6, "zoom": 0.62 }
+  },
+  "audio": { "pitchVariance": 0.1, "maxVoicesPerSound": 4, "minIntervalMs": 45, "hitVolume": 0.5, "lowImpactVolume": 0.6, "duckOnHitstop": 0.6 },
+  "input": { "deadzone": 0.18, "rumble": { "hitMs": 120, "hitStrong": 0.5, "bossMs": 260, "bossStrong": 1.0 } }
+}

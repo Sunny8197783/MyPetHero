@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-embed/
+artifacts/
+*.log
+.DS_Store
+
+# 설치한 에이전트 스킬 본문은 저장소에 넣지 않는다. 목록은 skills-lock.json, 설치는 scripts/install-skills.sh
+.claude/skills/*
+!.claude/skills/skills-lock.json

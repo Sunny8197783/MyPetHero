@@ -1,0 +1,38 @@
+{
+  "name": "hero-dog",
+  "version": "0.1.0",
+  "description": "우리 집 개는 영웅 — 육성 시뮬레이션 + 서바이버 액션 (three.js)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build.mjs --serve",
+    "build": "node scripts/build.mjs --minify",
+    "build:single": "node scripts/build.mjs --minify --single",
+    "build:embed": "node scripts/build.mjs --minify --embed",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test:e2e": "node tests/e2e.mjs",
+    "test:campaign": "node tests/campaign.mjs",
+    "test:cutscenes": "node tests/cutscenes.mjs",
+    "test:balance": "node tests/balance.mjs",
+    "test:perf": "node tests/perf.mjs",
+    "test:nan": "node tests/nan.mjs",
+    "test:shots": "node tests/shots.mjs"
+  },
+  "dependencies": {
+    "gsap": "3.15.1",
+    "howler": "2.2.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "0.187.0",
+    "zustand": "5.1.0"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.12",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "0.187.0",
+    "esbuild": "^0.28.0",
+    "playwright": "^1.63.0",
+    "typescript": "^6.0.0"
+  }
+}
